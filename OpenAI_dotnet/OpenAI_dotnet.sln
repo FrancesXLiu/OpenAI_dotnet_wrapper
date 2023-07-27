@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI_dotnet", "OpenAI_dotnet.csproj", "{04F7AE9B-42C7-4B66-9107-59C16F1991B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAIUsage", "..\OpenAITest\OpenAIUsage.csproj", "{804B420E-F09E-42DD-B80B-43BA4A1BF55D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI_dotnetTests", "..\OpenAI_dotnetTests\OpenAI_dotnetTests.csproj", "{99E35F11-E0F9-4E7B-A9EF-F0CCB9FA9009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPT4PaperPromptDemo", "..\GPT4PaperPromptDemo\GPT4PaperPromptDemo.csproj", "{19E5AFAC-92BC-4A8F-BDF9-47DC6B1D25C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04F7AE9B-42C7-4B66-9107-59C16F1991B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F7AE9B-42C7-4B66-9107-59C16F1991B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F7AE9B-42C7-4B66-9107-59C16F1991B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F7AE9B-42C7-4B66-9107-59C16F1991B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804B420E-F09E-42DD-B80B-43BA4A1BF55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804B420E-F09E-42DD-B80B-43BA4A1BF55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804B420E-F09E-42DD-B80B-43BA4A1BF55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804B420E-F09E-42DD-B80B-43BA4A1BF55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E35F11-E0F9-4E7B-A9EF-F0CCB9FA9009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E35F11-E0F9-4E7B-A9EF-F0CCB9FA9009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E35F11-E0F9-4E7B-A9EF-F0CCB9FA9009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E35F11-E0F9-4E7B-A9EF-F0CCB9FA9009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E5AFAC-92BC-4A8F-BDF9-47DC6B1D25C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E5AFAC-92BC-4A8F-BDF9-47DC6B1D25C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E5AFAC-92BC-4A8F-BDF9-47DC6B1D25C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E5AFAC-92BC-4A8F-BDF9-47DC6B1D25C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25174F50-F4F9-4C03-8C0F-0DD1E4756213}
+	EndGlobalSection
+EndGlobal
